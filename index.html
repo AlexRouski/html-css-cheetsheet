@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>HTML&CSS CheetSheet</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML & CSS CheetSheet</h1>
+    </header>
+    <section class="metadata">
+      <h2 class="html">HTML CheetSheet</h2>
+      <h2>Document Meta Data</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              <h3>Element</h3>
+            </th>
+            <th class="description">
+              <h3>Description</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="element">
+              <code>&lt;base&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The
+                <strong><code>&lt;base&gt;</code></strong> HTML element
+                specifies the base URL to use for all relative URLs in a
+                document. There can be only one &lt;base&gt; element in a
+                document.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;head&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;head&gt;</code></strong> HTML element
+                contains machine-readable information (metadata) about the
+                document, like its title, scripts, and style sheets.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;link&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;link&gt;</code></strong> HTML element
+                specifies relationships between the current document and an
+                external resource. This element is most commonly used to link to
+                CSS, but is also used to establish site icons (both "favicon"
+                style icons and icons for the home screen and apps on mobile
+                devices) among other things.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;meta&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;meta&gt;</code></strong> HTML element
+                represents Metadata that cannot be represented by other HTML
+                meta-related elements, like base, link, script, style or title.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;style&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;style&gt;</code></strong> HTML element
+                contains style information for a document, or part of a
+                document. It contains CSS, which is applied to the contents of
+                the document containing the &lt;style&gt; element.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;title&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;title&gt;</code></strong> HTML element
+                defines the document's title that is shown in a Browser's title
+                bar or a page's tab. It only contains text; tags within the
+                element are ignored.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="content-sectoning">
+      <h2>Content Sectioning</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              <h3>Element</h3>
+            </th>
+            <th class="description">
+              <h3>Description</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="element">
+              <code>&lt;address&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;address&gt;</code></strong> HTML element
+                indicates that the enclosed HTML provides contact information
+                for a person or people, or for an organization.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;article&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;article&gt;</code></strong> HTML element
+                represents a self-contained composition in a document, page,
+                application, or site, which is intended to be independently
+                distributable or reusable (e.g., in syndication). Examples
+                include: a forum post, a magazine or newspaper article, or a
+                blog entry, a product card, a user-submitted comment, an
+                interactive widget or gadget, or any other independent item of
+                content.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;aside&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;aside&gt;</code></strong> HTML element
+                represents a portion of a document whose content is only
+                indirectly related to the document's main content. Asides are
+                frequently presented as sidebars or call-out boxes.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;footer&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;footer&gt;</code></strong> HTML element
+                represents a footer for its nearest ancestor sectioning content
+                or sectioning root element. A &lt;footer&gt; typically contains
+                information about the author of the section, copydescription
+                data or links to related documents.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;header&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;header&gt;</code></strong> HTML element
+                represents introductory content, typically a group of
+                introductory or navigational aids. It may contain some heading
+                elements but also a logo, a search form, an author name, and
+                other elements.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code
+                >&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;&nbsp;</code
+              >
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;h1&gt; to &lt;h6&gt;</code></strong> HTML
+                elements represent six levels of section headings. &lt;h1&gt;>
+                is the highest section level and &lt;h6&gt; is the lowest.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;main&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;main&gt;</code></strong> HTML element
+                represents the dominant content of the body of a document. The
+                main content area consists of content that is directly related
+                to or expands upon the central topic of a document, or the
+                central functionality of an application.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;nav&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;nav&gt;</code></strong> HTML element
+                represents a section of a page whose purpose is to provide
+                navigation links, either within the current document or to other
+                documents. Common examples of navigation sections are menus,
+                tables of contents, and indexes.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;section&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;section&gt;</code></strong> HTML element
+                represents a generic standalone section of a document, which
+                doesn't have a more specific semantic element to represent it.
+                Sections should always have a heading, with very few exceptions.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="text-content">
+      <h2>Text content</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              <h3>Element</h3>
+            </th>
+            <th class="description">
+              <h3>Description</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="element">
+              <code>&lt;blockquote&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;blockquote&gt;</code></strong> HTML
+                element indicates that the enclosed text is an extended
+                quotation. Usually, this is rendered visually by indentation
+                (see Notes for how to change it). A URL for the source of the
+                quotation may be given using the cite attribute, while a text
+                representation of the source can be given using the cite
+                element.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;div&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;div&gt;</code></strong> HTML element is
+                the generic container for flow content. It has no effect on the
+                content or layout until styled in some way using CSS (e.g.
+                styling is directly applied to it, or some kind of layout model
+                like Flexbox is applied to its parent element).
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;figcaption&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;figcaption&gt;</code></strong> HTML
+                element represents a caption or legend describing the rest of
+                the contents of its parent figure element.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;figure&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;figure&gt;</code></strong> HTML element
+                represents self-contained content, potentially with an optional
+                caption, which is specified using the figcaption element. The
+                figure, its caption, and its contents are referenced as a single
+                unit.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;hr&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;hr&gt;</code></strong> HTML element
+                represents a thematic break between paragraph-level elements:
+                for example, a change of scene in a story, or a shift of topic
+                within a section.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;li&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;li&gt;</code></strong> HTML element is
+                used to represent an item in a list. It must be contained in a
+                parent element: an ordered list (ol), an unordered list (ul), or
+                a menu (menu). In menus and unordered lists, list items are
+                usually displayed using bullet points. In ordered lists, they
+                are usually displayed with an ascending counter on the element,
+                such as a number or letter.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;ol&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;ol&gt;</code></strong> HTML element
+                represents an ordered list of items — typically rendered as a
+                numbered list.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;ul&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;ul&gt;</code></strong> HTML element
+                represents an unordered list of items, typically rendered as a
+                bulleted list.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;menu&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;menu&gt;</code></strong> HTML element is
+                described in the HTML specification as a semantic alternative to
+                ul, but treated by browsers (and exposed through the
+                accessibility tree) as no different than ul. It represents an
+                unordered list of items (which are represented by li elements).
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;p&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;p&gt;</code></strong> HTML element
+                represents a paragraph. Paragraphs are usually represented in
+                visual media as blocks of text separated from adjacent blocks by
+                blank lines and/or first-line indentation, but HTML paragraphs
+                can be any structural grouping of related content, such as
+                images or form fields.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <code>&lt;pre&gt;</code>
+            </td>
+            <td class="description">
+              <p>
+                The <strong><code>&lt;pre&gt;</code></strong> HTML element
+                represents preformatted text which is to be presented exactly as
+                written in the HTML file. The text is typically rendered using a
+                non-proportional, or monospaced, font. Whitespace inside this
+                element is displayed as written.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="css-content">
+      <h2 class="html">CSS CheetSheet</h2>
+      <h2>Basic selectors</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              <h3>Selector</h3>
+            </th>
+            <th class="description">
+              <h3>Description</h3>
+            </th>
+            <th class="element">
+              <h3>Syntax</h3>
+            </th>
+            <th class="description far-description">
+              <h3>Example</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="element">
+              <span>Universal selector</span>
+            </td>
+            <td class="description">
+              <p>
+                Selects all elements. Optionally, it may be restricted to a
+                specific namespace or to all namespaces.
+              </p>
+            </td>
+            <td class="element">
+              <span>* ns|* *|*</span>
+            </td>
+            <td class="element">
+              <p><span>*</span> will match all the elements of the document.</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <span>Type selector</span>
+            </td>
+            <td class="description">
+              <p>Selects all elements that have the given node name.</p>
+            </td>
+            <td class="element">
+              <span>elementname</span>
+            </td>
+            <td class="element">
+              <p><span>input</span> will match any &lt;input&gt; element.</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <span>Class selector</span>
+            </td>
+            <td class="description">
+              <p>Selects all elements that have the given class attribute.</p>
+            </td>
+            <td class="element">
+              <span>.classname</span>
+            </td>
+            <td class="element">
+              <p>
+                <span>.index</span> will match any element that has a class of
+                "index".
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <span>ID selector</span>
+            </td>
+            <td class="description">
+              <p>
+                Selects an element based on the value of its id attribute. There
+                should be only one element with a given ID in a document.
+              </p>
+            </td>
+            <td class="element">
+              <span>#idname</span>
+            </td>
+            <td class="element">
+              <p>
+                <span>#toc</span> will match the element that has the ID "toc".
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="element">
+              <span>Attribute selector</span>
+            </td>
+            <td class="description">
+              <p>Selects all elements that have the given attribute.</p>
+            </td>
+            <td class="element">
+              <span
+                >[attr]&nbsp;&nbsp;&nbsp; [attr=value] [attr~=value]
+                [attr|=value] [attr^=value] [attr$=value] [attr*=value]</span
+              >
+            </td>
+            <td class="element">
+              <p>
+                <span>[autoplay]</span> will match all elements that have the
+                autoplay attribute set (to any value).
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
